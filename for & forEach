@@ -1,0 +1,5 @@
+numbers.forEach(i => console.log(i));
+
+for (var i of numbers) {
+    console.log(i);
+  }
