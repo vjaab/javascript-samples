@@ -1,0 +1,6 @@
+let numbers = [1, 2, 3,3, 4, 5];
+  let unique = [...new Set(numbers)];
+  console.log(unique)
+  let a=2, b=0;
+  [a,b]=[b,a]
+  console.log(a,b);
